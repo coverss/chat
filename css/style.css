@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.title {
+	color: black;
+	}
+
+#chatslist {
+	float:right;
+	width: 350px;
+	height: 623px;
+}
+
+
+
+
+.contact {
+	float: left;
+	margin: 10px 100px 0 60px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 100;
+	font-family: georgia;
+}
+
+.contact a:hover {
+	color: blue;
+}
+.single.active{
+	color: blue;
+}
+#chat {
+	padding-top:10px;
+	padding-left:20px;
+	height: 300px;
+
+
+	
+	
+}
+
+#messageAuthor {
+	float: left;
+	margin: 5px 600px 1px 15px;
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: times;
+
+}
+
+#messageText {
+	float: left;
+	margin: 0px 550px 10px 15px;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: 100;
+	font-family: georgia;
+}
+
+#textbox {
+	height: 80px;
+	width: 460px;
+	padding-left: 10px;
+
+	
+}
+
+#messageInput {
+	border: 2px solid black;
+	float: left;
+	margin: 20px 10px 20px 20px;
+	width: 250px;
+	height: 35px;
+	font-size:20px;
+	font-family: georgia;
+
+}
+
+#sendMessage {
+	float: left;
+	margin-top:19px;
+	text-align: center;
+	color: black;
+	font-size: 17px;
+	text-decoration: none;
+	font-family: georgia;
+}
+
+h1 {
+	padding-left: 30px;
+}
+
+.single a {
+	text-decoration: none;
+}
+
