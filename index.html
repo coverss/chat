@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+
+
+    <div id = "page">
+      <h1 class="title">Welcome, <span id="userName"></span></h1>
+      
+      
+      <div id = "chatslist">
+
+      <button class="btn btn-primary dropdown-toggle"  id = "plus" >Show Other Users</button>
+      <button id="trash" class="btn btn-danger dropdown-toggle">Clear LocalStorage</button>
+     
+      </div>
+      
+      <div id = "chat"></div>
+      
+      <div id = "textbox">
+          <input type="text" id = "messageInput">
+          <button class="btn btn-success dropdown-toggle" id="sendMessage" for="messageInput">Send</button>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
