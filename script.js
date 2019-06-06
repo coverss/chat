@@ -1,7 +1,5 @@
 	var cnt = 0;
 	var messages = [];
-
-
 	var memory = {
 	  get: function(key){
 	    return JSON.parse(localStorage.getItem(key));
